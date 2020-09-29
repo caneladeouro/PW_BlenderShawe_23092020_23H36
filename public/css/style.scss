@@ -1,12 +1,4 @@
-html {
-  /*DARK MODE*/
-  --bgcolor-body: #181818;
-  --bgcolor-complement: #2e2e2e;
-  --textcolor: #ffffff;
-  --main: #ff8b2d;
-  --secondary: #f79b51;
-  --terciary: #f7b37d;
-}
+@import "./_variables";
 
 body {
   background-color: --bgcolor-body;
@@ -24,22 +16,18 @@ header {
 
 .header-container {
   position: absolute;
-  width: -webkit-max-content;
-  width: -moz-max-content;
   width: max-content;
   max-width: 60%;
   max-height: inherit;
   background-color: --bgcolor-complement;
   padding: 15px;
   border-radius: 0px 0px 25px 25px;
-  -webkit-box-shadow: 0px 10px 10px 0px rgba(0, 0, 5, 0.2);
-          box-shadow: 0px 10px 10px 0px rgba(0, 0, 5, 0.2);
+  box-shadow: 0px 10px 10px 0px rgba(0, 0, 5, 0.2);
 }
 
 .logo-container {
   left: 50%;
-  -webkit-transform: translateX(-50%);
-          transform: translateX(-50%);
+  transform: translateX(-50%);
 }
 
 .logo {
@@ -78,10 +66,7 @@ header {
 .hide {
   visibility: hidden;
   pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
+  user-select: none;
 }
 
 .header-icon {
@@ -98,7 +83,6 @@ header {
   right: 25px;
   top: 15px;
 }
-
 .sandwich {
   border: solid 2px --textcolor;
   background-color: --textcolor;
@@ -117,7 +101,5 @@ footer {
   bottom: 0;
   width: 100%;
   background-color: --bgcolor-complement;
-  -webkit-box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
-          box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
+  box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
 }
-/*# sourceMappingURL=style.css.map */
