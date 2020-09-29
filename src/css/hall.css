@@ -1,0 +1,11 @@
+/* Document CSS */
+
+.account {
+    width: 100vw;
+    height: 100vh;
+
+    position: absolute;
+
+    justify-content: left;
+    align-items: initial;
+}
