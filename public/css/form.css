@@ -1,6 +1,6 @@
 /* Document CSS */
 
-.content {
+.formAccount .content {
   width: 100vw;
   height: 100vw;
 
@@ -9,7 +9,7 @@
   justify-content: center;
 }
 
-form {
+.formAccount {
   background-color: orange;
 
   width: 90vw;
@@ -20,22 +20,22 @@ form {
   border-radius: 15px;
 }
 
-.fieldGroup {
+.formAccount .fieldGroup {
   display: flex;
 
   justify-content: space-between;
 }
 
-.field {
+.formAccount .field {
   display: flex;
   flex-direction: column;
 }
 
-.field label {
+.formAccount .field label {
   font-size: 24px;
 }
-.field input,
-.field select {
+.formAccount .field input,
+.formAccount .field select {
   width: 200px;
   height: 40px;
 
@@ -45,7 +45,7 @@ form {
   padding: 6px;
 }
 
-button {
+.formAccount button {
   width: 200px;
   height: 40px;
 

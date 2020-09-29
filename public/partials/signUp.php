@@ -1,5 +1,5 @@
 <div class="content">
-    <form action="validForm.php" method="post">
+    <form action="validForm.php" method="post" class="formAccount">
         <div class="fieldGroup">
             <div class="field">
                 <label for="name">Nome: </label>
