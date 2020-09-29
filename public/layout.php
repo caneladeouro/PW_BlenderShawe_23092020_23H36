@@ -30,8 +30,6 @@
     <!--Stylesheets: 1-Bootstrap, 2-Própria-->
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
-    <link rel="stylesheet" type="text/css" href="css/form.css">
-    <link rel="stylesheet" href="./css/hall.css">
 
     <!--Título-->
     <title>Nome da Página | BlenderShare</title>
