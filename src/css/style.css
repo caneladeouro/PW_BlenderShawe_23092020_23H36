@@ -16,15 +16,21 @@ body {
   font-family: 'Roboto', sans-serif;
 }
 
-.dropdown-menu {
-  background-color: var(--bgcolor-complement);
-  padding: 15px;
-  color: var(--textcolor);
-  border-radius: 0px 15px 15px 15px;
-  -webkit-border-radius: 0px 15px 15px 15px;
-  -moz-border-radius: 0px 15px 15px 15px;
-  -ms-border-radius: 0px 15px 15px 15px;
-  -o-border-radius: 0px 15px 15px 15px;
+.display {
+  visibility: visible;
+  width: auto;
+  height: auto;
+}
+
+.hide {
+  visibility: hidden;
+  pointer-events: none;
+  -webkit-user-select: none;
+     -moz-user-select: none;
+      -ms-user-select: none;
+          user-select: none;
+  width: 0;
+  height: 0;
 }
 
 input {
@@ -87,53 +93,7 @@ header {
   max-height: 50px;
 }
 
-.header-menu {
-  position: absolute;
-  right: 0;
-  width: 15%;
-  height: inherit;
-  float: left;
-}
-
-.menu-btn {
-  background-color: none;
-  border: none;
-  visibility: hidden;
-  position: absolute;
-}
-
-.pesquisa-container {
-  right: 20%;
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-}
-
-.conta-container {
-  right: 8%;
-  transform: translateX(0);
-  -webkit-transform: translateX(0);
-  -moz-transform: translateX(0);
-}
-
-.display {
-  visibility: visible;
-}
-
-.hide {
-  visibility: hidden;
-  pointer-events: none;
-  -webkit-user-select: none;
-     -moz-user-select: none;
-      -ms-user-select: none;
-          user-select: none;
-}
-
-.header-icon {
-  min-width: 40px;
-  width: 50px;
-}
-
+/*MENU-DESKTOP*/
 /*MENU-MOBILE*/
 .menu-mobile {
   width: 30%;
@@ -161,7 +121,7 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: var(--bgcolor-complement);
+  background-color: var(--textcolor);
   -webkit-box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
           box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
 }
