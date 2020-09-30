@@ -1,11 +1,45 @@
-@import "./_variables";
+@import "./variables";
 
 body {
   background-color: var(--bgcolor-body);
   color: var(--textcolor);
   width: 100vw;
+  font-family: 'Roboto', sans-serif;
 }
 
+.dropdown-menu{
+  background-color: var(--bgcolor-complement);
+  padding: 15px;
+  color: var(--textcolor);
+  border-radius: 0px 15px 15px 15px;
+  -webkit-border-radius: 0px 15px 15px 15px;
+  -moz-border-radius: 0px 15px 15px 15px;
+  -ms-border-radius: 0px 15px 15px 15px;
+  -o-border-radius: 0px 15px 15px 15px;
+}
+
+input{
+  outline: none;
+  border: none;
+  border-bottom: solid 1px var(--textcolor);
+  background-color: inherit;
+  color: var(--textcolor-secondary);
+  transition: ease-in-out 200ms;
+  -webkit-transition: ease-in-out 200ms;
+  -moz-transition: ease-in-out 200ms;
+  -ms-transition: ease-in-out 200ms;
+  -o-transition: ease-in-out 200ms;
+  font-weight: 300;
+}
+input:focus{
+  outline: none;
+  border-bottom: solid 1px var(--primary);
+  transition: ease-in-out 200ms;
+  -webkit-transition: ease-in-out 200ms;
+  -moz-transition: ease-in-out 200ms;
+  -ms-transition: ease-in-out 200ms;
+  -o-transition: ease-in-out 200ms;
+}
 /*HEADER-------------------------------------------------------------------------------------------------*/
 header {
   width: 100%;

@@ -31,6 +31,7 @@
     <link rel="stylesheet" type="text/css" href="css/bootstrap.css">
     <link rel="stylesheet" type="text/css" href="css/style.css">
 
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;1,100;1,300;1,400;1,500;1,700&display=swap" rel="stylesheet">
     <!--Título-->
     <title>Nome da Página | BlenderShare</title>
 </head>
@@ -49,9 +50,9 @@
                     <line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
             </div>
             <div class="dropdown-menu" aria-labelledby="pesquisa">
-                <a class="dropdown-item" href="#">Action</a>
-                <a class="dropdown-item" href="#">Another action</a>
-                <a class="dropdown-item" href="#">Something else here</a>
+                <form action="pesquisa.php" method="GET">
+                    Pesquisa: <input type="text" name="pesquisa">
+                </form>
             </div>
             <div class="menu-space">
 
