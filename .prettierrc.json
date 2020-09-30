@@ -1,0 +1,35 @@
+{
+  "overrides": [
+    {
+      "files": "*.json",
+      "options": {
+        "tabWidth": 2
+      }
+    },
+    {
+      "files": "*.js",
+      "options": {
+        "semi": true,
+        "tabWidth": 4,
+        "singleQuote": true,
+        "bracketSpacing": true
+      }
+    },
+    {
+      "files": "*.php",
+      "options": {
+        "semi": true,
+        "tabWidth": 4,
+        "singleQuote": false,
+        "bracketSpacing": true
+      }
+    },
+    {
+      "files": "*.css",
+      "options": {
+        "semi": true,
+        "tabWidth": 4
+      }
+    }
+  ]
+}

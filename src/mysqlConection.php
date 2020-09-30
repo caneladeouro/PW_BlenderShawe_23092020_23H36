@@ -9,17 +9,25 @@ class MysqlConection
 {
     private $host = 'localhost';
     private $user = 'root';
-    private $password  = '';
+    private $password = '';
     private $database = 'bd_blender_share';
     protected $mysqli;
 
     public function mysqlConection()
     {
         try {
-            $this->mysqli = new mysqli($this->host, $this->user, $this->password, $this->database);
+            $this->mysqli = new mysqli(
+                $this->host,
+                $this->user,
+                $this->password,
+                $this->database
+            );
 
             if ($this->mysqli->connect_error) {
-                throw new Exception("Ouve um problema ao conectar com o banco de dados", 1);
+                throw new Exception(
+                    "Ouve um problema ao conectar com o banco de dados",
+                    1
+                );
             }
 
             return true;

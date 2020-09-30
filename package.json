@@ -1,0 +1,12 @@
+{
+  "name": "PW_BlenderShawe_23092020_17H06",
+  "version": "1.0.0",
+  "main": "index.js",
+  "repository": "https://github.com/caneladeouro/PW_BlenderShawe_23092020_23H36.git",
+  "author": "<caneladeouro10@gmail.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@prettier/plugin-php": "^0.14.3",
+    "prettier": "^2.1.2"
+  }
+}
