@@ -43,9 +43,8 @@
         <div class="header-container logo-container">
             <img src="img/logo-white-full.png" class="logo">
         </div>
-        <d class="header-menu">
-            <div class="header-container pesquisa-container menu-desktop display" id="pesquisa">
-                <svg xmlns="http://www.w3.org/2000/svg" class="header-icon" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
+            <div class="header-container pesquisa-container menu-desktop display dropdown-toggle" type="button" id="pesquisa" data-toggle="dropdown" aria-haspopup="true">
+            <svg xmlns="http://www.w3.org/2000/svg" class="header-icon" viewBox="0 0 24 24" fill="none" stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" class="feather feather-search">
                     <circle cx="11" cy="11" r="8" />
                     <line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
             </div>

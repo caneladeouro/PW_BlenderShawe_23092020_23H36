@@ -46,8 +46,15 @@ header {
   float: left;
 }
 
+.menu-btn{
+  background-color: none;
+  border: none;
+  visibility: hidden;
+  position: absolute;
+}
+
 .pesquisa-container {
-  left: 0;
+  right: 20%;
   transform: translateX(0);
   -webkit-transform: translateX(0);
   -moz-transform: translateX(0);
