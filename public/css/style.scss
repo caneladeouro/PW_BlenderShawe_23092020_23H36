@@ -1,15 +1,15 @@
 @import "./_variables";
 
 body {
-  background-color: --bgcolor-body;
-  color: --textcolor;
+  background-color: var(--bgcolor-body);
+  color: var(--textcolor);
 }
 
 /*HEADER-------------------------------------------------------------------------------------------------*/
 header {
   width: 100%;
   height: 80px;
-  background-color: --bgcolor-body;
+  background-color: var(--bgcolor-body);
   position: fixed;
   z-index: 999;
 }
@@ -19,7 +19,7 @@ header {
   width: max-content;
   max-width: 60%;
   max-height: inherit;
-  background-color: --bgcolor-complement;
+  background-color: var(--bgcolor-complement);
   padding: 15px;
   border-radius: 0px 0px 25px 25px;
   box-shadow: 0px 10px 10px 0px rgba(0, 0, 5, 0.2);
@@ -84,8 +84,8 @@ header {
   top: 15px;
 }
 .sandwich {
-  border: solid 2px --textcolor;
-  background-color: --textcolor;
+  border: solid 2px var(--textcolor);
+  background-color: var(--textcolor);
   margin: 5px;
   width: 100%;
   border-radius: 5px;
@@ -100,6 +100,6 @@ footer {
   position: absolute;
   bottom: 0;
   width: 100%;
-  background-color: --bgcolor-complement;
+  background-color: var(--bgcolor-complement);
   box-shadow: 0px -10px 10px 0px rgba(0, 0, 5, 0.2);
 }
