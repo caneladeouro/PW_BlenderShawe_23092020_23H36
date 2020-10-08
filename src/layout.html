@@ -48,12 +48,19 @@
             <img src="img/logo-white-full.png" class="logo">
         </div>
         <!--Menu Desktop-->
-        <div class="dropdown menu-desktop">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <div class="dropdown menu-desktop menu-pesquisar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                 stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="feather feather-search">
+                class="feather feather-search menu-icon">
                 <circle cx="11" cy="11" r="8" />
                 <line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+
+            <div class="dropdown-content pesquisar">
+                <form action="pesquisar.php">
+                    <input type="text" placeholder="Pesquisar">
+                    <input type="submit" value=">" class="submit pesquisar-submit">
+                </form>
+            </div>
         </div>
         <!--Menu Mobile-->
         <div class="menu-mobile hide">
