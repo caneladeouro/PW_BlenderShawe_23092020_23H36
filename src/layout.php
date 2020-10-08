@@ -48,12 +48,49 @@
             <img src="img/logo-white-full.png" class="logo">
         </div>
         <!--Menu Desktop-->
-        <div class="dropdown menu-desktop">
-            <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" viewBox="0 0 24 24" fill="none"
+        <!--pesquisar-->
+        <div class="dropdown menu-desktop menu-pesquisar">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
                 stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
-                class="feather feather-search">
+                class="feather feather-search menu-icon">
                 <circle cx="11" cy="11" r="8" />
                 <line x1="21" y1="21" x2="16.65" y2="16.65" /></svg>
+
+            <div class="dropdown-content pesquisar">
+                <form action="">
+                    <input type="text" placeholder="Pesquisar">
+                    <input type="submit" value=">" class="submit pesquisar-submit">
+                </form>
+            </div>
+        </div>
+        <!--conta-->
+        <div class="dropdown menu-desktop menu-conta">
+            <svg xmlns="http://www.w3.org/2000/svg" width="50" height="50" viewBox="0 0 24 24" fill="none"
+                stroke="#ffffff" stroke-width="2" stroke-linecap="round" stroke-linejoin="round"
+                class="feather feather-user menu-icon">
+                <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2" />
+                <circle cx="12" cy="7" r="4" /></svg>
+
+            <div class="dropdown-content conta">
+                <div class="acesso">
+                    <a href="--login.php">Login</a> ou <a href="--cadastrar.php">Cadastrar</a>
+                </div>
+                <a href="">+Postar Projeto</a><br>
+                <a href="">Configurações</a><br>
+                Tema
+                <button class="tema-btn tema-light">
+                </button>
+                <button class="tema-btn tema-dark">
+                </button>
+                <button class="tema-btn tema-contrast">
+                </button>
+                <br>
+                <br>
+                <a href="">Contato</a><br>
+                <a href="">Termos de Serviço</a><br>
+                <a href="">Políticas de Privacidade</a>
+
+            </div>
         </div>
         <!--Menu Mobile-->
         <div class="menu-mobile hide">

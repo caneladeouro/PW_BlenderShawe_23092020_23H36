@@ -39,6 +39,7 @@ body {
   -moz-border-radius: 15px;
   -ms-border-radius: 15px;
   -o-border-radius: 15px;
+  top: 83px;
 }
 
 .dropdown:hover .dropdown-content {
@@ -79,6 +80,10 @@ input:focus{
   -ms-border-radius: 99999px;
   -o-border-radius: 99999px;
   margin-right: 0px;
+}
+
+button:focus{
+  outline: none;
 }
 
 /*HEADER-------------------------------------------------------------------------------------------------*/
@@ -137,11 +142,10 @@ header {
 }
 
 .menu-pesquisar{
-  left: 80%;
+  left:80%;
 
   .pesquisar{
     width: 247px;
-    top: 83px;
 
     .pesquisar-submit{
       border-radius: 0 15px 15px 0;
@@ -149,7 +153,48 @@ header {
       -moz-border-radius: 0 15px 15px 0;
       -ms-border-radius: 0 15px 15px 0;
       -o-border-radius: 0 15px 15px 0;
+    }
+  }
 }
+
+.menu-conta{
+  left: 85%;
+
+  .conta{
+    width: 250px;
+    left: -200%;
+    a{
+      color: var(--textcolor);
+    }
+
+    .acesso{
+      margin-bottom: 20px;
+      text-align: center;
+    }
+
+    .tema-light{
+      background-color: #f8f8f8;
+      border: solid 2px #181818;
+    }
+    .tema-dark{
+      background-color: #181818;
+      border: solid 2px #f3f3f3;
+    }
+    .tema-contrast{
+      background-color: #000000;
+      border: solid 2px #ffffff;
+    }
+    .tema-btn{
+      float: right;
+      width: 16px;
+      height: 16px;
+      margin-left: 5px;
+      border-radius: 9999999px;
+      -webkit-border-radius: 9999999px;
+      -moz-border-radius: 9999999px;
+      -ms-border-radius: 9999999px;
+      -o-border-radius: 9999999px;
+    }
   }
 }
 
