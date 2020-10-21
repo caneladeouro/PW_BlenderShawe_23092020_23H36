@@ -93,13 +93,35 @@
             </div>
         </div>
         <!--Menu Mobile-->
-        <div class="menu-mobile hide">
+        <div class="menu-mobile hide" onclick="menuClick()">
             <hr class="sandwich hr1">
             <hr class="sandwich hr2">
             <hr class="sandwich hr3">
         </div>
-        <div class="menu-container">
+        <div class="menu-container hide">
+            <form action="">
+                <input type="text" placeholder="Pesquisar">
+                <input type="submit" value=">" class="submit pesquisar-submit">
 
+                <div class="acesso">
+                    <a href="--login.php">Login</a> ou <a href="--cadastrar.php">Cadastrar</a>
+                </div>
+                <a href="">+Postar Projeto</a><br>
+                <a href="">Configurações</a><br>
+                Tema
+                <button class="tema-btn tema-light">
+                </button>
+                <button class="tema-btn tema-dark">
+                </button>
+                <button class="tema-btn tema-contrast">
+                </button>
+                <br>
+                <br>
+                <a href="">Contato</a><br>
+                <a href="">Termos de Serviço</a><br>
+                <a href="">Políticas de Privacidade</a>
+
+            </form>
         </div>
         </div>
     </header>
