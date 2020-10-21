@@ -5,6 +5,8 @@ $(document).ready(function () {
     $(".menu-desktop").removeClass("display");
     $(".menu-mobile").addClass("display");
     $(".menu-mobile").removeClass("hide");
+    $(".menu-container").addClass("display");
+    $(".menu-container").removeClass("hide");
   }
 });
 
