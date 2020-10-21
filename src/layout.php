@@ -95,8 +95,11 @@
         <!--Menu Mobile-->
         <div class="menu-mobile hide">
             <hr class="sandwich hr1">
-            <hr class="sandwich hr1">
-            <hr class="sandwich hr1">
+            <hr class="sandwich hr2">
+            <hr class="sandwich hr3">
+        </div>
+        <div class="menu-container">
+
         </div>
         </div>
     </header>
