@@ -74,12 +74,13 @@ input:focus{
   background-color: var(--primary);
   border-bottom: solid 1px var(--primary);
   min-width: 16px;
-  border-radius: 99999px;
-  -webkit-border-radius: 99999px;
-  -moz-border-radius: 99999px;
-  -ms-border-radius: 99999px;
-  -o-border-radius: 99999px;
+  border-radius: 8px;
+  -webkit-border-radius: 8px;
+  -moz-border-radius: 8px;
+  -ms-border-radius: 8px;
+  -o-border-radius: 8px;
   margin-right: 0px;
+  padding: 5px;
 }
 
 button:focus{
@@ -153,7 +154,9 @@ header {
       -moz-border-radius: 0 8px 8px 0;
       -ms-border-radius: 0 8px 8px 0;
       -o-border-radius: 0 8px 8px 0;
-    }
+      padding-left: 5px;
+      padding-right: 5px;
+}
   }
 }
 
@@ -333,6 +336,49 @@ header {
     }
     
 }
+
+
+/*MAIN-------------------------------------------------------------------------------------------------*/
+      /*LOGIN------------------------------------------------------*/
+      .login-container{
+        background-color: var(--bgcolor-complement);
+        position: absolute;
+        left: 50%;
+        top: 50%;
+        transform: translateX(-50%) translateY(-50%);
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        -o-transform: translateX(-50%) translateY(-50%);
+        padding: 15px;
+        border-radius: 20px;
+        -webkit-border-radius: 20px;
+        -moz-border-radius: 20px;
+        -ms-border-radius: 20px;
+        -o-border-radius: 20px;
+        
+        input{
+          margin-bottom: 15px;
+        }
+
+        .login-c{
+          text-align: center;
+          padding: 10px;
+          float: left;
+        }
+        .cadastro-c{
+          text-align: center;
+          padding: 10px;
+          float: left;
+
+          border-left: solid 1px var(--primary);
+
+          #nascimento{
+            width: 100%;
+          }
+        }
+      }
+
 
 /*FOOTER-------------------------------------------------------------------------------------------------*/
 footer {
